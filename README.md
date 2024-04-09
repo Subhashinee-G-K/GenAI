@@ -1,28 +1,23 @@
 # GenerativeAI-NaanMudhalvan
 
-# CARTOONING AN IMAGE USING OpenCv
+# IMAGE NOISE REDUCTION USING AUTOENCODER
 
 # Overview
 
-The project aims to develop a cartoonify image application that transforms ordinary photographs into captivating cartoon-style representations. Leveraging machine learning and image processing techniques, the application will provide users with a simple and intuitive tool for creative image manipulation. Users will have the flexibility to upload their images and customize cartoonification parameters to achieve desired effects. The application will employ advanced algorithms for edge detection, color quantization, and image smoothing to ensure high-quality cartoonification results. Ultimately, the project seeks to democratize the process of creating cartoon-style images, enabling users from diverse backgrounds to express their creativity through digital art.
+The project aims to develop an image denoising algorithm using convolutional autoencoders, focusing on enhancing image quality and facilitating accurate analysis. It involves preprocessing the MNIST dataset, introducing noise to simulate real-world scenarios, designing and training a convolutional autoencoder model, evaluating its performance using both visual inspection and quantitative metrics, and deploying it for real-world denoising tasks. The project's overarching goal is to provide a robust framework for addressing noise-related challenges in diverse applications, ultimately improving user experience and enabling more informed decision-making processes.
 
 # Key Features
 
-* Edge detection using adaptive thresholding to identify prominent features in the input image.
+* Convolutional Autoencoder: Utilizing a deep learning architecture tailored for image processing tasks, effectively capturing essential features for denoising.
 
-* Color quantization with KMeans clustering to simplify color palettes and enhance visual appeal.
+* Preprocessing: Implementing data preprocessing techniques to prepare the MNIST dataset and introduce noise for training the model.
 
-* Bilateral filtering to smooth the image while preserving edge details, resulting in a seamless cartoonification effect.
+* Noise Simulation: Introducing Gaussian noise to generate realistic noisy images, mimicking real-world scenarios for robust model training.
 
-* User-friendly interface allowing easy uploading of images and customization of cartoonification parameters.
+* Training and Optimization: Employing the Adam optimizer and binary cross-entropy loss function to train and optimize the convolutional autoencoder model.
 
-* Compatibility with various operating systems and devices for widespread accessibility.
+* Performance Evaluation: Assessing the denoising performance using both visual inspection and quantitative metrics such as PSNR or SSIM on a separate test dataset.
 
-* High-quality cartoonification results achieved through the integration of advanced algorithms.
+* Real-World Deployment: Deploying the trained model for denoising new images in real-world applications, enhancing image quality and enabling more accurate analysis.
 
-* Creative expression enabled through customizable cartoonification parameters.
-
-* Export functionality to save cartoonified images in various formats for sharing and further use.
-
-
-
+* User Experience Improvement: Focusing on improving user experience by effectively reducing noise in images and facilitating clearer interpretation for decision-making processes.
